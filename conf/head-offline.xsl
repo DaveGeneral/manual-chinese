@@ -40,7 +40,9 @@
   SyntaxHighlighter.defaults['tab-size'] = 4;
   SyntaxHighlighter.defaults['gutter'] = true;
   SyntaxHighlighter.defaults['toolbar'] = false;
-  SyntaxHighlighter.defaults['collapse'] = false;  
+  SyntaxHighlighter.defaults['collapse'] = false;
+  SyntaxHighlighter.defaults['first-line'] = true;
+  //SyntaxHighlighter.defaults['first-line'] = true; 
 
   SyntaxHighlighter.all()
 </script>

@@ -62,6 +62,7 @@ include::community/index.asciidoc[]
 联机帮助页
 ///////////////////
 :leveloffset: 0
+:numbered!:
 
 include::tools/manpages.asciidoc[]
 
