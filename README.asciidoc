@@ -1,4 +1,4 @@
-= 关于Neo4j中文手册 =
+= 关于Neo4j繁体中文手册 =
 
 The documents use the asciidoc format, see:
 

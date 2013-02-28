@@ -10,8 +10,8 @@
   <groupId>org.neo4j.doc</groupId>
   <artifactId>neo4j-manual-chinese</artifactId>
   <version>1.9-SNAPSHOT</version>
-  <name>Neo4j简体中文手册</name>
-  <description>Neo4j简体中文手册.</description>
+  <name>Neo4j繁体中文手册</name>
+  <description>Neo4j繁体中文手册.</description>
   <url>http://components.neo4j.org/${project.artifactId}/${project.version}</url>
   <packaging>pom</packaging>
 

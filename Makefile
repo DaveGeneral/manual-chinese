@@ -4,7 +4,7 @@
 
 # Project Configuration
 project_name               = manual-chinese
-language                   = zh-CN
+language                   = zh-TW
 
 # Minimal setup
 target                     = target
