@@ -1,0 +1,680 @@
+# Copyright (C) 2013 Neo Technology.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: neo4j\n"
+"POT-Creation-Date: 2013-03-01 15:33+0800\n"
+"PO-Revision-Date: 2013-03-01 16:09+0800\n"
+"Last-Translator: tony < liuning@dotlife.cn>\n"
+"Language-Team: none\n"
+"Language: zh-CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: target/original/src/introduction/index.asciidoc:3
+#, no-wrap
+msgid "Introduction"
+msgstr "介绍"
+
+#. type: Plain text
+#: target/original/src/introduction/index.asciidoc:8
+msgid "This part gives a bird's eye view of what a graph database is, and then outlines some specifics of Neo4j."
+msgstr ""
+
+#. type: Title =
+#: target/original/src/introduction/index.asciidoc:16
+#, no-wrap
+msgid "Graph Database Concepts"
+msgstr "图形数据库概念"
+
+#. type: Plain text
+#: target/original/src/introduction/index.asciidoc:19
+msgid "This chapter contains an introduction to the graph data model and also compares it to other data models used when persisting data."
+msgstr ""
+
+#. type: Title =
+#: target/original/src/introduction/comparing.asciidoc:3
+#, no-wrap
+msgid "Comparing Database Models"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:8
+msgid "A Graph Database stores data structured in the Nodes and Relationships of a graph.  How does this compare to other persistence models? Because a graph is a generic structure, let's compare how a few models would look in a graph."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/comparing.asciidoc:9
+#, no-wrap
+msgid "A Graph Database transforms a RDBMS"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:13
+msgid "Topple the stacks of records in a relational database while keeping all the relationships, and you'll see a graph.  Where an RDBMS is optimized for aggregated data, Neo4j is optimized for highly connected data."
+msgstr ""
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:14
+#, no-wrap
+msgid "RDBMS"
+msgstr "RDBMS"
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:17
+#, no-wrap
+msgid "Graph Database as RDBMS"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/comparing.asciidoc:20
+#, no-wrap
+msgid "A Graph Database elaborates a Key-Value Store"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:25
+msgid "A Key-Value model is great for lookups of simple values or lists.  When the values are themselves interconnected, you've got a graph.  Neo4j lets you elaborate the simple data structures into more complex, interconnected data."
+msgstr ""
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:26
+#, no-wrap
+msgid "Key-Value Store"
+msgstr "Key-Value 存储"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:31
+msgid "+K*+ represents a key, +V*+ a value.  Note that some keys point to other keys as well as plain values."
+msgstr ""
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:32
+#, no-wrap
+msgid "Graph Database as Key-Value Store"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/comparing.asciidoc:35
+#, no-wrap
+msgid "A Graph Database relates Column-Family"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:39
+msgid "Column Family (BigTable-style) databases are an evolution of key-value, using \"families\" to allow grouping of rows.  Stored in a graph, the families could become hierarchical, and the relationships among data becomes explicit."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/comparing.asciidoc:41
+#, no-wrap
+msgid "A Graph Database navigates a Document Store"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:47
+msgid "The container hierarchy of a document database accommodates nice, schema-free data that can easily be represented as a tree.  Which is of course a graph.  Refer to other documents (or document elements) within that tree and you have a more expressive representation of the same data.  When in Neo4j, those relationships are easily navigable."
+msgstr ""
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:48
+#, no-wrap
+msgid "Document Store"
+msgstr "文档型存储"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:52
+msgid "+D+=Document, +S+=Subdocument, +V+=Value, +D2/S2+ = reference to subdocument in (other) document."
+msgstr ""
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:53
+#, no-wrap
+msgid "Graph Database as Document Store"
+msgstr ""
+
+#. type: Title =
+#: target/original/src/introduction/highlights.asciidoc:3
+#, no-wrap
+msgid "Neo4j Highlights"
+msgstr "Neo4j亮点"
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:6
+msgid "As a robust, scalable and high-performance database, Neo4j is suitable for full enterprise deployment or a subset of the full server can be used in lightweight projects."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:8
+msgid "It features:"
+msgstr "它有如下特性:"
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:10
+msgid "true ACID transactions"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:11
+msgid "high availability"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:12
+msgid "scales to billions of nodes and relationships"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:13
+msgid "high speed querying through traversals"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:18
+msgid "Proper ACID behavior is the foundation of data reliability.  Neo4j enforces that all operations that modify data occur within a transaction, guaranteeing consistent data.  This robustness extends from single instance embedded graphs to multi-server high availability installations.  For details, see <<transactions>>."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:22
+msgid "Reliable graph storage can easily be added to any application.  A graph can scale in size and complexity as the application evolves, with little impact on performance.  Whether starting new development, or augmenting existing functionality, Neo4j is only limited by physical hardware."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:26
+msgid "A single server instance can handle a graph of billions of nodes and relationships.  When data throughput is insufficient, the graph database can be distributed among multiple servers in a high availability configuration.  See <<ha>> to learn more."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:30
+msgid "The graph database storage shines when storing richly-connected data.  Querying is performed through traversals, which can perform millions of traversal steps per second.  A traversal step resembles a _join_ in a RDBMS."
+msgstr ""
+
+#. type: Title =
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:3
+#, no-wrap
+msgid "The Neo4j Graph Database"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:6
+msgid "This chapter goes into more detail on the data model and behavior of Neo4j."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:8
+#, no-wrap
+msgid "Nodes"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:12
+msgid "The fundamental units that form a graph are nodes and relationships.  In Neo4j, both nodes and relationships can contain <<graphdb-neo4j-properties,properties>>."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:14
+msgid "Nodes are often used to represent _entities,_ but depending on the domain relationships may be used for that purpose as well."
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:21
+#, no-wrap
+msgid ""
+"\"A Node\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"A Node\" -> \"Relationships\" [label=\"can have\"]\n"
+"\"A Node\" -> \"Properties\" [label=\"can have\"]\n"
+"\"Relationships\" -> \"Properties\" [label=\"can have\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:24
+msgid "Let's start out with a really simple graph, containing only a single node with one property:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:28
+#, no-wrap
+msgid "\"name: Marko\"\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:32
+#, no-wrap
+msgid "Relationships"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:37
+msgid "Relationships between nodes are a key part of a graph database.  They allow for finding related data.  Just like nodes, relationships can have <<graphdb-neo4j-properties,properties>>."
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:46
+#, no-wrap
+msgid ""
+"\"A Relationship\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"A Relationship\" -> \"Start node\" [label=\"has a\"]\n"
+"\"A Relationship\" -> \"End node\" [label=\"has a\"]\n"
+"\"A Relationship\" -> \"Relationship type\" [label=\"has a\"]\n"
+"\"A Relationship\" -> \"Properties\" [label=\"can have\"]\n"
+"\"Relationship type\" -> Name [label=\"uniquely identified by\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:49
+msgid "A relationship connects two nodes, and is guaranteed to have valid start and end nodes."
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:54
+#, no-wrap
+msgid ""
+"graph [rankdir=\"LR\"]\n"
+"\"Start node\" -> \"End node\" [label=\"relationship\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:57
+msgid "As relationships are always directed, they can be viewed as outgoing or incoming relative to a node, which is useful when traversing the graph:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:66
+#, no-wrap
+msgid ""
+"graph [rankdir=\"LR\"]\n"
+"START [label=\"\"]\n"
+"MIDDLE [label=\"Node\" fillcolor=\"NODEHIGHLIGHT\"]\n"
+"END [label=\"\"]\n"
+"MIDDLE -> END [label=\"outgoing relationship\"]\n"
+"START -> MIDDLE [label=\"incoming relationship\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:70
+msgid "'Relationships are equally well traversed in either direction.' This means that there is no need to add duplicate relationships in the opposite direction (with regard to traversal or performance)."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:72
+msgid "While relationships always have a direction, you can ignore the direction where it is not useful in your application."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:74
+msgid "Note that a node can have relationships to itself as well:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:78
+#, no-wrap
+msgid "\"Node\" -> \"Node\" [label=\"loop\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:83
+msgid "To further enhance graph traversal all relationships have a relationship type.  Note that the word _type_ might be misleading here, you could rather think of it as a _label_.  The following example shows a simple social network with two relationship types."
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:90
+#, no-wrap
+msgid ""
+"Maja -> Oscar [label=\"follows\"]\n"
+"Oscar -> Maja [label=\"follows\"]\n"
+"Alice -> Oscar [label=\"follows\"]\n"
+"Oscar -> William [label=\"blocks\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+msgstr ""
+
+#. type: Block title
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:92
+#, no-wrap
+msgid "Using relationship direction and type"
+msgstr ""
+
+#. type: delimited block |
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:100
+#, no-wrap
+msgid ""
+"| What | How\n"
+"| get who a person follows | outgoing +follows+ relationships, depth one\n"
+"| get the followers of a person | incoming +follows+ relationships, depth one\n"
+"| get who a person blocks | outgoing +blocks+ relationships, depth one\n"
+"| get who a person is blocked by | incoming +blocks+ relationships, depth one\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:104
+msgid "This example is a simple model of a file system, which includes symbolic links:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:113
+#, no-wrap
+msgid ""
+"\"/\" [ fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"/\" -> A\n"
+"A -> B [label=\"file\"]\n"
+"A -> C [label=\"file\"]\n"
+"C -> D [label=\"file\"]\n"
+"B -> D [label=\"symbolic link \\n"
+"{name: \\\"E\\\"}\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:116
+msgid "Depending on what you are looking for, you will use the direction and type of relationships during traversal."
+msgstr ""
+
+#. type: delimited block |
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:125
+#, no-wrap
+msgid ""
+"|What | How\n"
+"|get the full path of a file | incoming +file+ relationships\n"
+"|get all paths for a file | incoming +file+ and +symbolic link+ relationships\n"
+"|get all files in a directory | outgoing +file+ and +symbolic link+ relationships, depth one\n"
+"|get all files in a directory, excluding symbolic links | outgoing +file+ relationships, depth one\n"
+"|get all files in a directory, recursively | outgoing +file+ and +symbolic link+ relationships\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:129
+#, no-wrap
+msgid "Properties"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:132
+msgid "Both nodes and relationships can have properties."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:136
+msgid "Properties are key-value pairs where the key is a string.  Property values can be either a primitive or an array of one primitive type.  For example +String+, +int+ and +int[]+ values are valid for properties."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:140
+msgid "+null+ is not a valid property value.  Nulls can instead be modeled by the absence of a key."
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:150
+#, no-wrap
+msgid ""
+"\"A Property\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"A Property\" -> Key [label=\"has a\"]\n"
+"Key -> Primitive:String [label=\"is a\"]\n"
+"\"A Property\" -> Value [label=\"has a\"]\n"
+"Value -> Primitive [label=\"can be a\"]\n"
+"Value -> Primitive [label=\"can be an array of\"]\n"
+"Primitive [shape=\"record\" label=\"Primitive |{boolean|byte|short|int|long|float|double|char|<String>String}\"]\n"
+msgstr ""
+
+#. type: Block title
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:153
+#, no-wrap
+msgid "Property value types"
+msgstr ""
+
+#. type: delimited block |
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:166
+#, no-wrap
+msgid ""
+"|Type | Description | Value range\n"
+"|boolean| | +true+/+false+\n"
+"|byte|8-bit integer | +-128+ to +127+, inclusive \n"
+"|short|16-bit integer | +-32768+ to +32767+, inclusive\n"
+"|int| 32-bit integer | +-2147483648+ to +2147483647+, inclusive\n"
+"|long| 64-bit integer | +-9223372036854775808+ to +9223372036854775807+, inclusive\n"
+"|float| 32-bit IEEE 754 floating-point number |\n"
+"|double| 64-bit IEEE 754 floating-point number |\n"
+"|char| 16-bit unsigned integers representing Unicode characters | +u0000+ to +uffff+ (+0+ to +65535+)\n"
+"|String| sequence of Unicode characters |\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:169
+msgid "For further details on float/double values, see http://docs.oracle.com/javase/specs/jls/se5.0/html/typesValues.html#4.2.3[Java Language Specification]."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:171
+#, no-wrap
+msgid "Paths"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:174
+msgid "A path is one or more nodes with connecting relationships, typically retrieved as a query or traversal result."
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:182
+#, no-wrap
+msgid ""
+"\"A Path\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"A Path\" -> \"Start Node\" [label=\"has a\"]\n"
+"\"A Path\" -> \"Relationship\" [label=\"can contain one or more\"]\n"
+"\"Relationship\" -> \"Node\" [label=\"accompanied by a\"]\n"
+"\"A Path\" -> \"End Node\" [label=\"has an\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:185
+msgid "The shortest possible path has length zero and looks like this:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:189
+#, no-wrap
+msgid "\"Node\"\n"
+msgstr "\"节点\"\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:192
+msgid "A path of length one:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:196
+#, no-wrap
+msgid "\"Node 1\" -> \"Node 2\" [label=\"Relationship 1\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:199
+msgid "Another path of length one:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:203
+#, no-wrap
+msgid "\"Node 1\" -> \"Node 1\" [label=\"Relationship 1\"]\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:206
+#, no-wrap
+msgid "Traversal"
+msgstr "遍历"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:210
+msgid "Traversing a graph means visiting its nodes, following relationships according to some rules.  In most cases only a subgraph is visited, as you already know where in the graph the interesting nodes and relationships are found."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:213
+msgid "Neo4j comes with a callback based traversal API which lets you specify the traversal rules.  At a basic level there's a choice between traversing breadth- or depth-first."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:216
+msgid "For an in-depth introduction to the traversal framework, see <<tutorial-traversal>>.  For Java code examples see <<tutorials-java-embedded-traversal>>."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:218
+msgid "Other options to traverse or query graphs in Neo4j are <<cypher-query-lang, Cypher>> and <<gremlin-plugin, Gremlin>>."
+msgstr ""
+
+#. type: Title =
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:3
+#, no-wrap
+msgid "What is a Graph Database?"
+msgstr "什么是图形数据库?"
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:8
+msgid "A graph database stores data in a graph, the most generic of data structures, capable of elegantly representing any kind of data in a highly accessible way.  Let’s follow along some graphs, using them to express graph concepts.  We’ll ``read'' a graph by following arrows around the diagram to form sentences."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:9
+#, no-wrap
+msgid "A Graph contains Nodes and Relationships"
+msgstr ""
+
+#. type: delimited block _
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:13
+msgid "``A Graph —records data in-> Nodes —which have-> Properties''"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:18
+msgid "The simplest possible graph is a single Node, a record that has named values referred to as Properties.  A Node could start with a single Property and grow to a few million, though that can get a little awkward.  At some point it makes sense to distribute the data into multiple nodes, organized with explicit Relationships."
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:27
+#, no-wrap
+msgid ""
+"\"Graph\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Graph\" -> Nodes [label=\"records data in\" weight=2.0]\n"
+"\"Graph\" -> Relationships [label=\"records data in\" weight=2.0]\n"
+"Relationships -> Nodes [label=\"organize\"]\n"
+"Nodes -> Properties [label=\"have\"]\n"
+"Relationships -> Properties [label=\"have\"]\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:29
+#, no-wrap
+msgid "Relationships organize the Graph"
+msgstr ""
+
+#. type: delimited block _
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:33
+msgid "``Nodes —are organized by-> Relationships —which also have-> Properties''"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:36
+msgid "Relationships organize Nodes into arbitrary structures, allowing a Graph to resemble a List, a Tree, a Map, or a compound Entity – any of which can be combined into yet more complex, richly inter-connected structures."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:38
+#, no-wrap
+msgid "Query a Graph with a Traversal"
+msgstr ""
+
+#. type: delimited block _
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:42
+msgid "``A Traversal —navigates-> a Graph; it —identifies-> Paths —which order-> Nodes''"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:45
+msgid "A Traversal is how you query a Graph, navigating from starting Nodes to related Nodes according to an algorithm, finding answers to questions like ``what music do my friends like that I don't yet own,'' or ``if this power supply goes down, what web services are affected?''"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:59
+#, no-wrap
+msgid ""
+"Traversal [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Graph\" [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Paths [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Algorithm [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Relationships -> Nodes [label=\"organize\"]\n"
+"\"Graph\" -> Nodes [label=\"records data in\"]\n"
+"\"Graph\" -> Relationships [label=\"records data in\"]\n"
+"Traversal -> \"Graph\" [label=\"navigates\" weight=2.0 color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Traversal -> Paths [label=\"identifies\" weight=2.0 color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Traversal -> Algorithm [label=\"expresses\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Paths -> Nodes [label=\"order\" weight=2.0]\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:62
+#, no-wrap
+msgid "Indexes look-up Nodes or Relationships"
+msgstr ""
+
+#. type: delimited block _
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:66
+msgid "``An Index —maps from-> Properties —to either-> Nodes or Relationships''"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:70
+msgid "Often, you want to find a specific Node or Relationship according to a Property it has.  Rather than traversing the entire graph, use an Index to perform a look-up, for questions like ``find the Account for username master-of-graphs.''"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:80
+#, no-wrap
+msgid ""
+"Indexes [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"Relationships -> Nodes [label=\"organize\"]\n"
+"Nodes -> Properties [label=\"have\"]\n"
+"Relationships -> Properties [label=\"have\"]\n"
+"Indexes -> Nodes [label=\"map to\" weight=2.0]\n"
+"Indexes -> Relationships [label=\"map to\" weight=2.0]\n"
+"Indexes -> Properties [label=\"map from\" weight=2.0]\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:82
+#, no-wrap
+msgid "Neo4j is a Graph Database"
+msgstr "Neo4j是一个图形数据库"
+
+#. type: delimited block _
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:86
+msgid "``A Graph Database —manages a-> Graph and —also manages related-> Indexes''"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:91
+msgid "Neo4j is a commercially supported open-source graph database.  It was designed and built from the ground-up to be a reliable database, optimized for graph structures instead of tables.  Working with Neo4j, your application gets all the expressiveness of a graph, with all the dependability you expect out of a database."
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:111
+#, no-wrap
+msgid ""
+"\"Graph Database\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Graph\" [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Indexes [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Relationships -> Nodes [label=\"organize\"]\n"
+"Nodes -> Properties [label=\"have\"]\n"
+"Relationships -> Properties [label=\"have\"]\n"
+"\"Graph Database\" -> \"Graph\" [label=\"manages\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"\"Graph\" -> Nodes [label=\"records data in\"]\n"
+"\"Graph\" -> Relationships [label=\"records data in\"]\n"
+"\"Graph Database\" -> Indexes [label=\"manages\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Indexes -> Nodes [label=\"map to\"]\n"
+"Indexes -> Relationships [label=\"map to\"]\n"
+"Indexes -> Properties [label=\"map from\"]  \n"
+"Traversal -> \"Graph\" [label=\"navigates\"]\n"
+"Traversal -> Paths [label=\"identifies\"]\n"
+"Traversal -> Algorithm [label=\"expresses\"]\n"
+"Paths -> Nodes [label=\"order\"]\n"
+msgstr ""
+

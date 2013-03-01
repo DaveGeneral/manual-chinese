@@ -1,0 +1,100 @@
+# Copyright (C) 2013 Neo Technology.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: neo 4j\n"
+"POT-Creation-Date: 2013-03-01 15:32+0800\n"
+"PO-Revision-Date: 2013-03-01 16:12+0800\n"
+"Last-Translator: tony < liuning@dotlife.cn>\n"
+"Language-Team: none\n"
+"Language: zh-CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: target/original/src/preface/preface.asciidoc:4
+#, no-wrap
+msgid "Preface"
+msgstr "前言"
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:7
+msgid "This is the reference manual for Neo4j version {neo4j-version}, written by the Neo4j Team."
+msgstr "这是由Neo4j中文翻译团队撰写的关于Neo4j  {neo4j-version} 的参考手册."
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:9
+msgid "The main parts of the manual are:"
+msgstr "这个手册的主要部分是："
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:11
+msgid "<<introduction>> -- introducing graph database concepts and Neo4j."
+msgstr "<<introduction,介绍>> -- 介绍图形数据库概念和Neo4j."
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:12
+msgid "<<tutorials>> -- learn how to use Neo4j."
+msgstr "<<tutorials,教程>> -- 学习如何使用Neo4j."
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:13
+msgid "<<reference-documentation>> -- detailed information on Neo4j."
+msgstr "<<reference-documentation,参考手册>> -- 关于Neo4j的细节信息."
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:14
+msgid "<<operations>> -- how to install and maintain Neo4j."
+msgstr "<<operations,操作>> -- 如何安装和维护Neo4j."
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:15
+msgid "<<tools>> -- guides on tools."
+msgstr "<<tools,工具>> -- 相关工具向导."
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:16
+msgid "<<community>> -- getting help from, contributing to."
+msgstr "<<community,社区>> -- 从社区获取帮助并且如何向社区作贡献."
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:17
+msgid "<<manpages>> -- command line documentation."
+msgstr "<<manpages,联机帮助页>> --命令行文档."
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:18
+msgid "<<questions>> -- common questions."
+msgstr "<<questions,问题>> -- 普通问题."
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:21
+msgid "The material is practical, technical, and focused on answering specific questions.  It addresses how things work, what to do and what to avoid to successfully run Neo4j in a production environment."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:23
+msgid "The goal is to be thumb-through and rule-of-thumb friendly."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:26
+msgid "Each section should stand on its own, so you can hop right to whatever interests you.  When possible, the sections distill \"rules of thumb\" which you can keep in mind whenever you wander out of the house without this manual in your back pocket."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:30
+msgid "The included code examples are executed when Neo4j is built and tested.  Also, the REST API request and response examples are captured from real interaction with a Neo4j server.  Thus, the examples are always in sync with Neo4j."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:33
+msgid "_Who should read this?_"
+msgstr "_谁需要阅读这份文档呢?_"
+
+#. type: Plain text
+#: target/original/src/preface/preface.asciidoc:35
+msgid "The topics should be relevant to architects, administrators, developers and operations personnel."
+msgstr "这些主题应该适合相关的架构师,管理员,开发人员和操作人员参考."
+
