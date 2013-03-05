@@ -1,0 +1,80 @@
+# Copyright (C) 2013 Neo Technology.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: neo 4j\n"
+"POT-Creation-Date: 2013-03-05 08:52+0800\n"
+"PO-Revision-Date: 2013-03-05 09:11+0800\n"
+"Last-Translator: tony < liuning@dotlife.cn>\n"
+"Language-Team: none\n"
+"Language: zh-CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: target/original/src/community/help.asciidoc:3
+#, no-wrap
+msgid "Community Support"
+msgstr "社区支持"
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:7
+msgid "You can learn a lot about Neo4j on different _events._ To get information on upcoming Neo4j events, have a look here:"
+msgstr "在不同的 _events_ 中你可以了解到许多关于Neo4j的东西. 要想获取即将到来的Neo4j events的信息，请参考下面："
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:9
+msgid "http://neo4j.org/"
+msgstr "http://neo4j.org/"
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:10
+msgid "http://neo4j.meetup.com/"
+msgstr "http://neo4j.meetup.com/"
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:12
+msgid "Get help from the Neo4j open source community; here are some starting points."
+msgstr "从Neo4j开源社区获取帮助; 下面是一些推荐的地方."
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:14
+msgid "Neo4j Community Discussions: https://groups.google.com/forum/#!forum/neo4j"
+msgstr "Neo4j 社区讨论: https://groups.google.com/forum/#!forum/neo4j"
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:15
+msgid "Twitter: http://twitter.com/neo4j"
+msgstr "Twitter: http://twitter.com/neo4j"
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:16
+msgid "IRC channel: irc://irc.freenode.net/neo4j http://webchat.freenode.net/?randomnick=1&channels=neo4j[web chat]."
+msgstr "IRC channel: irc://irc.freenode.net/neo4j http://webchat.freenode.net/?randomnick=1&channels=neo4j[web chat]."
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:18
+msgid "Report a _bug_ or add a _feature request_:"
+msgstr "报告一个 _bug_ 或者 增加一个 _功能请求_:"
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:20
+msgid "General: https://github.com/neo4j/community/issues"
+msgstr "General: https://github.com/neo4j/community/issues"
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:21
+msgid "Monitoring: https://github.com/neo4j/advanced/issues"
+msgstr "Monitoring: https://github.com/neo4j/advanced/issues"
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:22
+msgid "Backup and High Availability: https://github.com/neo4j/enterprise/issues"
+msgstr "备份和高可用性: https://github.com/neo4j/enterprise/issues"
+
+#. type: Plain text
+#: target/original/src/community/help.asciidoc:26
+msgid "Questions regarding the _documentation:_ The Neo4j Manual is published online with a comment function, please use that to post any questions or comments.  See http://docs.neo4j.org/."
+msgstr "关于 _手册_ 的疑问: Neo4j手册是发布在线上的并且带有评论功能,请使用此功能发表你的问题和评论.请查看:  http://docs.neo4j.org/."
+

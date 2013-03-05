@@ -32,7 +32,7 @@ include::introduction/index.asciidoc[]
 
 :leveloffset: 0
 
-//include::community/index.asciidoc[]
+include::community/index.asciidoc[]
 
 :leveloffset: 0
 :numbered!:

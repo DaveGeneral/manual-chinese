@@ -1,0 +1,2291 @@
+# Copyright (C) 2013 Neo Technology.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: neo 4j\n"
+"POT-Creation-Date: 2013-03-05 09:30+0800\n"
+"PO-Revision-Date: 2013-03-05 09:29+0800\n"
+"Last-Translator: tony < liuning@dotlife.cn>\n"
+"Language-Team: none\n"
+"Language: zh-CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: target/original/src/community/contributing.asciidoc:3
+#, no-wrap
+msgid "Contributing to Neo4j"
+msgstr "为Neo4j做贡献"
+
+#. type: Plain text
+#: target/original/src/community/contributing.asciidoc:6
+msgid ""
+"The Neo4j project is an Open Source effort to bring fast complex data "
+"storage and processing to life. Every form of help is highly appreciated by "
+"the community - and you are not alone, see <<contributors>>!"
+msgstr ""
+"Neo4j是一个开源项目,致力于复杂的大数据存储. 列表中的每一位都得到了社区的高度"
+"赞赏,你不是一个人在战斗,请参考:  <<contributors, 贡献者>>!"
+
+#. type: Plain text
+#: target/original/src/community/contributing.asciidoc:8
+msgid "One crucial aspect of contributing to the Neo4j project is the <<cla>>."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing.asciidoc:10
+msgid ""
+"In short: make sure to sign the CLA and send in the email, or the Neo4j "
+"project won't be able to accept your contribution."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing.asciidoc:13
+msgid ""
+"Note that you can contribute to Neo4j also by contributing documentation or "
+"giving feedback on the current documentation.  Basically, at all the places "
+"where you can get help, there's also room for contributions."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing.asciidoc:15
+msgid ""
+"If you want to contribute, there are some good areas to start with, "
+"especially for getting in contact with the community, <<community-support>>."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing.asciidoc:17
+msgid ""
+"To document your efforts, we highly recommend to read <<community-docs>>."
+msgstr ""
+
+#. type: Title =
+#: target/original/src/community/cla.asciidoc:3
+#, no-wrap
+msgid "Contributor License Agreement"
+msgstr "贡献许可协议"
+
+#. type: Title ==
+#: target/original/src/community/cla.asciidoc:5
+#, no-wrap
+msgid "Summary"
+msgstr "摘要"
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:8
+msgid ""
+"We require all source code that is hosted on the Neo4j infrastructure to be "
+"contributed through the http://dist.neo4j.org/neo4j-cla.pdf[Neo4j "
+"Contributor License Agreement] (CLA). The purpose of the Neo4j Contributor "
+"License Agreement is to protect the integrity of the code base, which in "
+"turn protects the community around that code base: the founding entity Neo "
+"Technology, the Neo4j developer community and the Neo4j users. This kind of "
+"contributor agreement is common amongst free software and open source "
+"projects (it is in fact very similar to the widely signed http://www.oracle."
+"com/technetwork/community/oca-486395.html[Oracle Contributor Agreement])."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:10
+msgid ""
+"Please see the below or send a mail to admins [at] neofourjay.org if you "
+"have any other questions about the intent of the CLA. If you have a legal "
+"question, please ask a lawyer."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/cla.asciidoc:11
+#, no-wrap
+msgid "Common questions"
+msgstr "普通问题"
+
+#. type: Title ===
+#: target/original/src/community/cla.asciidoc:13
+#, no-wrap
+msgid "Am I losing the rights to my own code?"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:16
+msgid ""
+"No, the http://dist.neo4j.org/neo4j-cla.pdf[Neo4j CLA] only asks you to "
+"_share_ your rights, not relinquish them. Unlike some contribution "
+"agreements that require you to transfer copyrights to another organization, "
+"the CLA does not take away your rights to your contributed intellectual "
+"property. When you agree to the CLA, you grant us joint ownership in "
+"copyright, and a patent license for your contributions. You retain all "
+"rights, title, and interest in your contributions and may use them for any "
+"purpose you wish. Other than revoking our rights, you can still do whatever "
+"you want with your code."
+msgstr ""
+
+#. type: Title ===
+#: target/original/src/community/cla.asciidoc:17
+#, no-wrap
+msgid "What can you do with my contribution?"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:20
+msgid ""
+"We may exercise all rights that a copyright holder has, as well as the "
+"rights you grant in the http://dist.neo4j.org/neo4j-cla.pdf[Neo4j CLA] to "
+"use any patents you have in your contributions. As the CLA provides for "
+"joint copyright ownership, you may exercise the same rights as we in your "
+"contributions."
+msgstr ""
+
+#. type: Title ===
+#: target/original/src/community/cla.asciidoc:21
+#, no-wrap
+msgid "What are the community benefits of this?"
+msgstr "这个社区的好处是什么？"
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:24
+msgid ""
+"Well, it allows us to sponsor the Neo4j projects and provide an "
+"infrastructure for the community, while making sure that we can include this "
+"in software that we ship to our customers without any nasty surprises. "
+"Without this ability, we as a small company would be hard pressed to release "
+"all our code as free software."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:26
+msgid ""
+"Moreover, the CLA lets us protect community members (both developers and "
+"users) from hostile intellectual property litigation should the need arise. "
+"This is in line with how other free software stewards like the http://www."
+"fsf.org[Free Software Foundation - FSF] defend projects (except with the "
+"FSF, there's no shared copyright but instead you completely sign it over to "
+"the FSF). The contributor agreement also includes a \"free software covenant,"
+"\" or a promise that a contribution will remain available as free software."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:28
+msgid ""
+"At the end of the day, you still retain all rights to your contribution and "
+"we can stand confident that we can protect the Neo4j community and the Neo "
+"Technology customers."
+msgstr ""
+
+#. type: Title ===
+#: target/original/src/community/cla.asciidoc:29
+#, no-wrap
+msgid "Can we discuss some items in the CLA?"
+msgstr "我们能在CLA中讨论一些问题吗？"
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:32
+msgid ""
+"Absolutely! Please give us feedback! But let's keep the legalese off the "
+"mailing lists. Please mail your feedback directly to cla (@t) neotechnology "
+"dot cöm and we'll get back to you."
+msgstr ""
+
+#. type: Title ===
+#: target/original/src/community/cla.asciidoc:33
+#, no-wrap
+msgid "I still don't like this CLA."
+msgstr "我仍然不喜欢CLA."
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:36
+msgid ""
+"That's fine. You can still host it anywhere else, of course. Please do! "
+"We're only talking here about the rules for the infrastructure that we "
+"provide."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/cla.asciidoc:37
+#, no-wrap
+msgid "How to sign"
+msgstr "如何签名"
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:40
+msgid ""
+"When you've read through the CLA, please send a mail to cla (@t) "
+"neotechnology dot cöm. Include the following information:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:42
+msgid "Your full name."
+msgstr "你的完整姓名"
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:43
+msgid "Your e-mail address."
+msgstr "你的e-mail地址"
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:44
+msgid "An attached copy of the http://dist.neo4j.org/neo4j-cla.pdf[Neo4j CLA]."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:45
+msgid "That you agree to its terms."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/cla.asciidoc:47
+msgid "For example:"
+msgstr "举个例子:"
+
+#. type: delimited block -
+#: target/original/src/community/cla.asciidoc:51
+#, no-wrap
+msgid ""
+"Hi. My name is John Doe (john@doe.com).\n"
+"I agree to the terms in the attached Neo4j Contributor License Agreement.\n"
+msgstr ""
+
+#. type: Title =
+#: target/original/src/community/contribution-areas.asciidoc:3
+#, no-wrap
+msgid "Areas for contribution"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contribution-areas.asciidoc:6
+msgid ""
+"Neo4j is a project with a vast ecosystem and a lot of space for "
+"contributions. Where you can and want to pitch in depends of course on your "
+"time, skill set and interests. Below are some of the areas that might "
+"interest you:"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contribution-areas.asciidoc:7
+#, no-wrap
+msgid "Neo4j Distribution"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contribution-areas.asciidoc:10
+msgid ""
+"https://github.com/neo4j/community/issues[The Neo4j Community open issues] "
+"for some starting points for contribution"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contribution-areas.asciidoc:11
+msgid ""
+"See the https://github.com/neo4j/[GitHub Neo4j area] for a list of projects"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contribution-areas.asciidoc:12
+#, no-wrap
+msgid "Maintaining Neo4j Documentation"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contribution-areas.asciidoc:18
+msgid ""
+"Some parts of the documentation need extra care from the community to stay "
+"up to date.  They typically refer to different kinds of community "
+"contributions.  Below is a list of such places, feel free to look into them "
+"and check for outdated or missing content! The easiest way to contribute "
+"fixes is to comment at the http://docs.neo4j.org/chunked/snapshot/[online "
+"HTML version]."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contribution-areas.asciidoc:20
+msgid "<<tutorials-rest>>"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contribution-areas.asciidoc:21
+#, no-wrap
+msgid "Drivers and bindings to Neo4j"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contribution-areas.asciidoc:24
+msgid "REST: see <<tutorials-rest>> for a list of active projects"
+msgstr ""
+
+#. type: Title =
+#: target/original/src/community/docs.asciidoc:3
+#, no-wrap
+msgid "Writing Neo4j Documentation"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:6
+msgid ""
+"Other than writing documentation, you can help out by providing comments - "
+"head over to the http://docs.neo4j.org/chunked/snapshot/[online HTML "
+"version] to do that!"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:9
+msgid ""
+"For how to build the manual see: https://github.com/neo4j/neo4j/blob/master/"
+"manual/README.asciidoc[readme]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:11
+msgid "The documents use the asciidoc format, see:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:13
+msgid "http://www.methods.co.nz/asciidoc/[Aciidoc Reference]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:14
+msgid "http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:16
+msgid "The cheatsheet is really useful!"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:18
+#, no-wrap
+msgid "Overall Flow"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:23
+msgid ""
+"Each (sub)project has its own documentation, which will produce a 'docs.jar' "
+"file.  By default this file is assembled from the contents in 'src/docs/'.  "
+"Asciidoc documents have the +.asciidoc+ file extension."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:26
+msgid ""
+"The documents can use code snippets which will extract code from the "
+"project.  The corresponding code must be deployed to the 'sources.jar' or "
+"'test-sources.jar' file."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:28
+msgid ""
+"By setting up a unit test accordingly, documentation can be written directly "
+"in the JavaDoc comment."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:31
+msgid ""
+"The above files are all consumed by the build of the manual (by adding them "
+"as dependencies).  To get content included in the manual, it has to be "
+"explicitly included by a document in the manual as well."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:33
+msgid ""
+"Note that different ways to add documentation works best for different cases:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:36
+msgid ""
+"For detail level documentation, it works well to write the documentation as "
+"part of unit tests (in the JavaDoc comment).  In this case, you typically do "
+"not want to link to the source code in the documentation."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:39
+msgid ""
+"For tutorial level documentation, the result will be best by writing a +."
+"asciidoc+ file containing the text.  Source snippets and output examples can "
+"then be included from there.  In this case you typically want to link to the "
+"source code, and users should be able to run it without any special setup."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:40
+#, no-wrap
+msgid "File Structure in 'docs.jar'"
+msgstr ""
+
+#. type: delimited block |
+#: target/original/src/community/docs.asciidoc:50
+#, no-wrap
+msgid ""
+"| Directory | Contents\n"
+"| dev/ | content aimed at developers\n"
+"| dev/images/ | images used by the dev docs\n"
+"| ops/ | content aimed at operations\n"
+"| ops/images/ | images used by the ops docs\n"
+"| man/ | manpages\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:54
+msgid ""
+"Additional subdirectories are used as needed to structure the documents, "
+"like 'dev/tutorial/', 'ops/tutorial/' etc."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:55
+#, no-wrap
+msgid "Headings and document structure"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:62
+msgid ""
+"Each document starts over with headings from level zero (the document "
+"title).  Each document should have an id.  In some cases sections in the "
+"document need to have id's as well, this depends on where they fit in the "
+"overall structure.  To be able to link to content, it has to have an id.  "
+"Missing id's in mandatory places will fail the build."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:64
+msgid "This is how a document should start:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:70
+#, no-wrap
+msgid ""
+"[[unique-id-verbose-is-ok]]\n"
+"The Document Title\n"
+"==================\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:74
+msgid ""
+"To push the headings down to the right level in the output, the +leveloffset"
+"+ attribute is used when including the document inside of another document."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:76
+msgid "Subsequent headings in a document should use the following syntax:"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:79
+#, no-wrap
+msgid "Subheading"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:82
+msgid "... content here ..."
+msgstr ""
+
+#. type: Title ===
+#: target/original/src/community/docs.asciidoc:83
+#, no-wrap
+msgid "Subsubheading"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:86
+msgid "content here ..."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:90
+msgid ""
+"Asciidoc comes with one more syntax for headings, but in this project it's "
+"not used."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:91
+#, no-wrap
+msgid "Writing"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:95
+msgid ""
+"Put one sentence on each line.  This makes it easy to move content around, "
+"and also easy to spot (too) long sentences."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:96
+#, no-wrap
+msgid "Gotchas"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:99
+msgid ""
+"A chapter can't be empty. (the build will fail on the docbook xml validity "
+"check)"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:101
+msgid ""
+"The document title should be \"underlined\" by the same number of +=+ as "
+"there are characters in the title."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:104
+msgid ""
+"Always leave a blank line at the end of documents (or the title of the next "
+"document might end up in the last paragraph of the document)"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:107
+msgid ""
+"As +{}+ are used for Asciidoc attributes, everything inside will be treated "
+"as an attribute.  What you have to do is to escape the opening brace: +\\"
+"\\{+.  If you don't, the braces and the text inside them will be removed "
+"without any warning being issued!"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:108
+#, no-wrap
+msgid "Links"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:112
+msgid ""
+"To link to other parts of the manual the id of the target is used.  This is "
+"how such a reference looks:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:116
+#, no-wrap
+msgid "<<community-docs-overall-flow>>\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:119
+msgid "Which will render like: <<community-docs-overall-flow>>"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:122
+msgid ""
+"Just write \"see \\<<target-id>>\" and similar, that should suffice in most "
+"cases."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:124
+msgid ""
+"If you need to link to another document with your own link text, this is "
+"what to do:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:128
+#, no-wrap
+msgid "<<target-id, link text that fits in the context>>\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:131
+msgid ""
+"Having lots of linked text may work well in a web context but is a pain in "
+"print, and we aim for both!"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:133
+msgid "External links are added like this:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:137
+#, no-wrap
+msgid "http://neo4j.org/[Link text here]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:140
+msgid "Which renders like: http://neo4j.org/[Link text here]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:142
+msgid "For short links it may be better not to add a link text, just do:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:146
+#, no-wrap
+msgid "http://neo4j.org/\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:149
+msgid "Which renders like: http://neo4j.org/"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:151
+msgid ""
+"It's ok to have a dot right after the URL, it won't be part of the link."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:152
+#, no-wrap
+msgid "Text Formatting"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:155
+msgid "\\_Italics_ is rendered as _Italics_ and used for emphasis."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:156
+msgid ""
+"\\*Bold* is rendered as *Bold* and used sparingly, for strong emphasis only."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:158
+msgid ""
+"\\+methodName()+ is rendered as +methodName()+ and is used for literals as "
+"well (note: the content between the `+` signs _will_ be parsed)."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:160
+msgid ""
+"\\`command` is rendered as `command` (typically used for command-line)  "
+"(note: the content between the +`+ signs _will not_ be parsed)."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:161
+msgid "\\'my/path/' is rendered as 'my/path/' (used for file names and paths)."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:162
+msgid ""
+"\\\\``Double quoted'' (that is two grave accents to the left and two acute "
+"accents to the right) renders as ``Double quoted''."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:163
+msgid ""
+"\\`Single quoted' (that is a single grave accent to the left and a single "
+"acute accent to the right) renders as `Single quoted'."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:164
+#, no-wrap
+msgid "Admonitions"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:168
+msgid ""
+"These are very useful and should be used where appropriate.  Choose from the "
+"following (write all caps and no, we can't easily add new ones):"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:170
+msgid "Note."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:172
+msgid "Tip."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:174
+msgid "Important"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:176
+msgid "Caution"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:178
+msgid "Warning"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:180
+msgid "Here's how it's done:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:184
+#, no-wrap
+msgid "NOTE: Note.\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:187
+msgid "A multiline variation:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:193
+#, no-wrap
+msgid ""
+"[TIP]\n"
+"Tiptext.\n"
+"Line 2.\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:196
+#: target/original/src/community/docs.asciidoc:216
+#: target/original/src/community/docs.asciidoc:235
+#: target/original/src/community/docs.asciidoc:258
+#: target/original/src/community/docs.asciidoc:341
+msgid "Which is rendered as:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:200
+msgid "Tiptext.  Line 2."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:201
+#, no-wrap
+msgid "Images"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:205
+#, no-wrap
+msgid ""
+"_All images in the entire manual share the same namespace._\n"
+"  You know how to handle that.\n"
+msgstr ""
+
+#. type: Title ===
+#: target/original/src/community/docs.asciidoc:206
+#, no-wrap
+msgid "Images Files"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:209
+msgid ""
+"To include an image file, make sure it resides in the 'images/' directory "
+"relative to the document you're including it from. Then go:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:213
+#, no-wrap
+msgid "image::neo4j-logo.png[]\n"
+msgstr ""
+
+#. type: Title ===
+#: target/original/src/community/docs.asciidoc:219
+#, no-wrap
+msgid "Static Graphviz/DOT"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:223
+msgid ""
+"We use the Graphviz/DOT language to describe graphs.  For documentation see "
+"http://graphviz.org/."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:225
+msgid "This is how to include a simple example graph:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:232
+#, no-wrap
+msgid ""
+" [\"dot\", \"community-docs-graphdb-rels.svg\"]\n"
+" ----\n"
+" \"Start node\" -> \"End node\" [label=\"relationship\"]\n"
+" ----\n"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:239
+#, no-wrap
+msgid "\"Start node\" -> \"End node\" [label=\"relationship\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:242
+msgid ""
+"Here's an example using some predefined variables available in the build:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:255
+#, no-wrap
+msgid ""
+" [\"dot\", \"community-docs-graphdb-rels-overview.svg\", \"meta\"]\n"
+" ----\n"
+" \"A Relationship\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+" \"Start node\" [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+" \"A Relationship\" -> \"Start node\" [label=\"has a\"]\n"
+" \"A Relationship\" -> \"End node\" [label=\"has a\"]\n"
+" \"A Relationship\" -> \"Relationship type\" [label=\"has a\"]\n"
+" Name [TEXTNODE]\n"
+" \"Relationship type\" -> Name [label=\"uniquely identified by\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+" ----\n"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:268
+#, no-wrap
+msgid ""
+"\"A Relationship\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Start node\" [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"\"A Relationship\" -> \"Start node\" [label=\"has a\"]\n"
+"\"A Relationship\" -> \"End node\" [label=\"has a\"]\n"
+"\"A Relationship\" -> \"Relationship type\" [label=\"has a\"]\n"
+"Name [TEXTNODE]\n"
+"\"Relationship type\" -> Name [label=\"uniquely identified by\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:271
+msgid ""
+"The optional second argument given to the dot filter defines the style to "
+"use:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:273
+msgid "when not defined: Default styling for nodespace examples."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:274
+msgid "+neoviz+: Nodespace view generated by Neoviz."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:275
+msgid "+meta+: Graphs that don't resemble db contents, but rather concepts."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:278
+#, no-wrap
+msgid ""
+"Keywords of the DOT language have to be surrounded by double quotes when used for other purposes.\n"
+"  The keywords include _node, edge, graph, digraph, subgraph,_ and _strict_.\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:280
+#, no-wrap
+msgid "Attributes"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:283
+msgid "Common attributes you can use in documents:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:285
+msgid "\\{neo4j-version} - rendered as \"{neo4j-version}\""
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:286
+msgid "\\{neo4j-git-tag} - rendered as \"{neo4j-git-tag}\""
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:287
+msgid "\\{lucene-version} - rendered as \"{lucene-version}\""
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:290
+msgid ""
+"These can substitute part of URLs that point to for example APIdocs or "
+"source code.  Note that neo4j-git-tag also handles the case of snapshot/"
+"master."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:292
+msgid "Sample Asciidoc attributes which can be used:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:294
+msgid "\\{docdir} - root directory of the documents"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:295
+msgid "\\{nbsp} - non-breaking space"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:296
+#, no-wrap
+msgid "Comments"
+msgstr "评论"
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:302
+msgid ""
+"There's a separate build including comments.  The comments show up with a "
+"yellow background.  This build doesn't run by default, but after a normal "
+"build, you can use `make annotated` to build it.  You can also use the "
+"resulting page to search for content, as the full manual is on a single page."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:304
+msgid "Here's how to write a comment:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:308
+#, no-wrap
+msgid "// this is a comment\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:313
+msgid ""
+"The comments are not visible in the normal build.  Comment blocks won't be "
+"included in the output of any build at all.  Here's a comment block:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:320
+#, no-wrap
+msgid ""
+"////\n"
+"Note that includes in here will still be processed, but not make it into the output.\n"
+"That is, missing includes here will still break the build!\n"
+"////\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:323
+#, no-wrap
+msgid "Code Snippets"
+msgstr ""
+
+#. type: Title ===
+#: target/original/src/community/docs.asciidoc:325
+#, no-wrap
+msgid "Explicitly defined in the document"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:329
+#, no-wrap
+msgid ""
+"Use this kind of code snippets as little as possible.\n"
+"  They are well known to get out of sync with reality after a while.\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:331
+msgid "This is how to do it:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:338
+#, no-wrap
+msgid ""
+" [source,cypher]\n"
+" ----\n"
+" start n=(2, 1) where (n.age < 30 and n.name = \"Tobias\") or not(n.name = \"Tobias\")  return n\n"
+" ----\n"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:345
+#, no-wrap
+msgid "start n=(2, 1) where (n.age < 30 and n.name = \"Tobias\") or not(n.name = \"Tobias\")  return n\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:348
+msgid ""
+"If there's no suitable syntax highlighter, just omit the language: "
+"+[source]+."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:350
+msgid "Currently the following syntax highlighters are enabled:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:352
+msgid "Bash"
+msgstr "Bash"
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:353
+msgid "Cypher"
+msgstr "Cypher"
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:354
+msgid "Groovy"
+msgstr "Groovy"
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:355
+msgid "Java"
+msgstr "Java"
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:356
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#. type: delimited block =
+#: target/original/src/community/docs.asciidoc:357
+#: target/original/src/community/translating.asciidoc:23
+msgid "Python"
+msgstr "Python"
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:358
+msgid "XML"
+msgstr "XML"
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:360
+msgid ""
+"For other highlighters we could add see http://alexgorbatchev.com/"
+"SyntaxHighlighter/manual/brushes/."
+msgstr ""
+
+#. type: Title ===
+#: target/original/src/community/docs.asciidoc:362
+#, no-wrap
+msgid "Fetched from source code"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:366
+msgid ""
+"Code can be automatically fetched from source files.  You need to define:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:368
+msgid "component: the +artifactId+ of the Maven coordinates,"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:369
+msgid "source: path to the file inside the jar it's deployed to,"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:370
+msgid ""
+"classifier: +sources+ or +test-sources+ or any other classifier pointing to "
+"the artifact,"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:371
+msgid "tag: tag name to search the file for,"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:372
+msgid ""
+"the language of the code, if a corresponding syntax highlighter is available."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:374
+msgid ""
+"Note that the artifact has to be included as a Maven dependency of the "
+"Manual project so that the files can be found."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:379
+msgid ""
+"The file will be searched for lines including +START SNIPPET: {tag}+ and "
+"+END SNIPPET: {tag}+, the lines between those will go into the output.  Be "
+"aware of that the tag \"abc\" will match \"abcd\" as well.  It's a simple on/"
+"off switch, meaning that multiple occurrences will be assembled into a "
+"single code snippet in the output.  This behavior can be user to hide away "
+"assertions from code examples sourced from tests."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:381
+msgid "This is how to define a code snippet inclusion:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:391
+#, no-wrap
+msgid ""
+" [snippet,java]\n"
+" ----\n"
+" component=neo4j-examples\n"
+" source=org/neo4j/examples/JmxTest.java\n"
+" classifier=test-sources\n"
+" tag=getStartTime\n"
+" ----\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:394
+#: target/original/src/community/docs.asciidoc:426
+msgid "This is how it renders:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:401
+#, no-wrap
+msgid ""
+"component=neo4j-examples\n"
+"source=org/neo4j/examples/JmxTest.java\n"
+"classifier=test-sources\n"
+"tag=getStartTime\n"
+msgstr ""
+
+#. type: Title ===
+#: target/original/src/community/docs.asciidoc:404
+#, no-wrap
+msgid "Query Results"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:408
+msgid ""
+"There's a special filter for Cypher query results.  This is how to tag a "
+"query result:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:423
+#, no-wrap
+msgid ""
+" .Result\n"
+" [queryresult]\n"
+" ----\n"
+" +----------------------------------+\n"
+" | friend_of_friend.name | count(*) |\n"
+" +----------------------------------+\n"
+" | Ian                   | 2        |\n"
+" | Derrick               | 1        |\n"
+" | Jill                  | 1        |\n"
+" +----------------------------------+\n"
+" 3 rows, 12 ms\n"
+" ----\n"
+msgstr ""
+
+#. type: Block title
+#: target/original/src/community/docs.asciidoc:427
+#, no-wrap
+msgid "Result"
+msgstr "结果"
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:438
+#, no-wrap
+msgid ""
+"+----------------------------------+\n"
+"| friend_of_friend.name | count(*) |\n"
+"+----------------------------------+\n"
+"| Ian                   | 2        |\n"
+"| Derrick               | 1        |\n"
+"| Jill                  | 1        |\n"
+"+----------------------------------+\n"
+"3 rows, 12 ms\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:441
+#, no-wrap
+msgid "A sample Java based documentation test"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:445
+msgid ""
+"For Java, there are a couple of premade utilities that keep code and "
+"documentation together in Javadocs and code snippets that generate Asciidoc "
+"for the rest of the toolchain."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:447
+msgid ""
+"To illustrate this, look at the following documentation that generates the "
+"Asciidoc file +hello-world-title.asciidoc+ with a content of:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:451
+#, no-wrap
+msgid "include::{importdir}/neo4j-examples-docs-jar/dev/examples/hello-world-sample-chapter.asciidoc[]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:454
+msgid "this file is included in this documentation via"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:459
+#, no-wrap
+msgid ""
+"  :leveloffset: 3\n"
+"  include::{importdir}/neo4j-examples-docs-jar/dev/examples/hello-world-sample-chapter.asciidoc[] \n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:462
+msgid "which renders the following chapter:"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:469
+#, no-wrap
+msgid "Integrated Live Console"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:473
+msgid ""
+"An interactive console can be added and will show up in the online HTML "
+"version.  An optional title can be added, which will be used for the text of "
+"the button."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:475
+msgid ""
+"This is how to do it, using Geoff to define the data, with an empty line to "
+"separate it from the query:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:484
+#, no-wrap
+msgid ""
+" .Interactive Matrix Example\n"
+" [console]\n"
+" ----\n"
+" (A) {\"name\" : \"Neo\"}; \n"
+" (B) {\"name\" : \"Trinity\"};\n"
+" (A)-[:LOVES]->(B)\n"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:488
+#, no-wrap
+msgid ""
+" start n = node(*)\n"
+" return n\n"
+" ----\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:491
+msgid "And this is the result:"
+msgstr ""
+
+#. type: Block title
+#: target/original/src/community/docs.asciidoc:492
+#, no-wrap
+msgid "Interactive Matrix Example"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:498
+#, no-wrap
+msgid ""
+"(A) {\"name\" : \"Neo\"};\n"
+"(B) {\"name\" : \"Trinity\"};\n"
+"(A)-[:LOVES]->(B)\n"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/docs.asciidoc:501
+#, no-wrap
+msgid ""
+"start n = node(*)\n"
+"return n\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/docs.asciidoc:505
+#, no-wrap
+msgid "Toolchain"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:508
+msgid "Useful links when configuring the docbook toolchain:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:510
+msgid "http://www.docbook.org/tdg/en/html/docbook.html"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:511
+msgid "http://www.sagehill.net/docbookxsl/index.html"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:512
+msgid "http://docbook.sourceforge.net/release/xsl/1.76.1/doc/html/index.html"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/docs.asciidoc:513
+msgid "http://docbook.sourceforge.net/release/xsl/1.76.1/doc/fo/index.html"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:3
+msgid "Translating the Neo4j Manual"
+msgstr ""
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:8
+msgid ""
+"To translate the Neo4j Manual, there's a special project setup to use.  See "
+"the French translation project for an example: https://github.com/neo4j/"
+"manual-french"
+msgstr ""
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:10
+msgid "The project contains:"
+msgstr ""
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:12
+msgid "'conf/' -- configuration for the project."
+msgstr ""
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:13
+msgid "'docs/' -- translated files for content provided by Neo4j modules."
+msgstr ""
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:14
+msgid "'po/' -- translation files and po4a configuration files."
+msgstr ""
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:15
+msgid "'src/' -- translated files for content provided by the original manual."
+msgstr ""
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:16
+msgid "'Makefile' -- a makefile with project-specific configuration."
+msgstr ""
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:17
+msgid "'pom.xml' -- Maven build configuration."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/translating.asciidoc:18
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:21
+msgid "Apache Maven"
+msgstr "Apache Maven"
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:22
+msgid "GNU Make"
+msgstr "GNU Make"
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:24
+msgid "Perl"
+msgstr "Perl"
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:25
+msgid "Perl module: +Unicode::GCString+"
+msgstr ""
+
+#. type: delimited block =
+#: target/original/src/community/translating.asciidoc:27
+msgid ""
+"To check if you have the +Unicode::GCString+ module installed, you can issue "
+"the following command:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/translating.asciidoc:31
+#, no-wrap
+msgid "perl -MUnicode::GCString -e ''\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:34
+msgid ""
+"If there's no error, the module has been successfully installed on your "
+"system."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:38
+msgid ""
+"To install the module, you can use http://search.cpan.org/dist/App-cpanminus/"
+"lib/App/cpanminus.pm[cpanminus].  For a convenient way to install it, see "
+"http://cpanmin.us.  With cpanminus installed, execute this command:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/translating.asciidoc:42
+#, no-wrap
+msgid "cpanm Unicode::GCString\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:45
+msgid ""
+"You will probably want to use a '.po' file editor as well, see <<community-"
+"translating-tools>>."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/translating.asciidoc:46
+#, no-wrap
+msgid "Build flow and file layout"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:50
+msgid ""
+"The build is essentially a two-step process.  The first step generates or "
+"copies translated documents, while the second step is an ordinary AsciiDoc "
+"build using the output from the first step as sources."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:52
+msgid ""
+"Other than the 'src/' and 'docs/' diirectories of the project, the build "
+"generates files with the same layout in two more places:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:54
+msgid ""
+"'target/original/(src|docs)/' -- the contents of the original manual. Note "
+"that's it easier to look for content here than to dig into the original "
+"manual itself."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:55
+msgid ""
+"'target/(src|docs)/' -- the translated source to use for the AsciiDoc build."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:57
+msgid ""
+"The translated documents in 'target/(src|docs)/' are generated in three "
+"steps:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:59
+msgid "It starts out as a copy of the original manual."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:60
+msgid ""
+"Next, any static translated files fromt the 'src/' and 'docs/' directories "
+"of the project are copied."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:61
+msgid ""
+"Finally, the translation files in the 'po/' directory are used to generate "
+"translated documents."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:63
+msgid ""
+"Files produced by later steps will overwrite existing files from earlier "
+"steps."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/translating.asciidoc:65
+#, no-wrap
+msgid "Adding a chapter to a translation file ==  "
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:71
+msgid ""
+"The translation is split over multiple translation files, one per ``part'' "
+"of the manual.  It's all about making the translation easier to manage and "
+"the tools to perform well.  The basic rule of thumb is that if some content "
+"is moved, it should likely still end up in the same translation file.  In "
+"that case, the tools will even detect this and the translation will be moved "
+"automatically."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:73
+msgid "To add a document to a translation file, do like this:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/translating.asciidoc:77
+#, no-wrap
+msgid "make add DOCUMENT=\"src/introduction/the-neo4j-graphdb.asciidoc\" PART=\"introduction\"\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:82
+msgid ""
+"If the translation file does not already exist, it will be created.  The "
+"document will be added to the translation build configuration file as well.  "
+"(The configuration is in the corresponding '.conf' file in the 'po/' "
+"directory.)"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:87
+msgid ""
+"If there exists a translated copy of the document at the location the "
+"+DOCUMENT+ parameter points to, the script will attempt to populate the "
+"translation file with translated paragraphs from that document.  Note that "
+"the structure of the document has to be a _perfect match_, or it will fail.  "
+"However, the error messages are helpful, so just fix and try again until it "
+"works! Translation file and configuration are only changed when the first "
+"part succeeds."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:92
+msgid ""
+"Only documents that need to be translated should be added.  For example "
+"Cypher queries and query results should not be translated.  In general, "
+"documents residing in a directory named 'includes' should not be translated."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:96
+msgid ""
+"Also note that AsciiDoc `include::` lines are normally not part of the "
+"translation at all, but handled automatically.  In case they need to be "
+"handled differently in a document, this has to be configured in the "
+"corresponding '.conf' file.  For example a normal document entry in such a "
+"file can look like this:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/translating.asciidoc:100
+#, no-wrap
+msgid "[type: asciidoc] target/original/src/operations/index.asciidoc fr:target/src/operations/index.asciidoc\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:103
+msgid ""
+"To configure a single document not to handle `include::` lines "
+"automatically, add the following at the end of the line:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/translating.asciidoc:107
+#, no-wrap
+msgid "opt: \"-o definitions=target/tools/main/resources/conf/translate-includes\"\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/translating.asciidoc:109
+#, no-wrap
+msgid "Workflow"
+msgstr "工作流"
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:113
+msgid ""
+"First, use Maven to set up the environment and download the original manual "
+"and documentation tools:"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/translating.asciidoc:117
+#, no-wrap
+msgid "mvn clean package\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:121
+msgid ""
+"To refresh the original manual and the tools, use the maven command again.  "
+"For the sake of keeping in sync with the original manual, a daily run of "
+"this command is recommended."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:123
+msgid "Once things are set up, use `make` during work."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:125
+msgid "`make` -- same as `make preview`."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:126
+msgid "`make add` -- add a document to a translation file."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:127
+msgid "`make preview` -- refresh and build preview of the manual."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:128
+msgid ""
+"`make refresh` -- refresh translation files from the original and generated "
+"translated documents."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:130
+msgid ""
+"The preview of the translated manual is found in the 'target/html/' "
+"directory."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:133
+msgid ""
+"The actual work on translation is done by editing translation files.  "
+"Suggested tools for that are found below."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/translating.asciidoc:135
+#, no-wrap
+msgid "Translation tools"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:139
+msgid ""
+"There are different editors for '.po' files containing the translations "
+"Below is a list of editors."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:141
+msgid "http://projects.gnome.org/gtranslator/[Gtranslator]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:142
+msgid "http://userbase.kde.org/Lokalize[Lokalize]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:143
+msgid "http://translate.sourceforge.net/wiki/virtaal/index[Virtaal]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/translating.asciidoc:144
+msgid "http://www.poedit.net/[Poedit]"
+msgstr ""
+
+#. type: Title =
+#: target/original/src/community/contributing-code.asciidoc:3
+#, no-wrap
+msgid "Contributing Code to Neo4j"
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:6
+#, no-wrap
+msgid "Intro"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:11
+msgid ""
+"The Neo4j community is a free software and open source community centered "
+"around software and components for the Neo4j Graph Database.  It is "
+"sponsored by http://neotechnology.com[Neo Technology], which provides "
+"infrastructure (different kinds of hosting, documentation, etc) as well as "
+"people to manage it.  The Neo4j community is an open community, in so far as "
+"it welcomes any member that accepts the basic criterias of contribution and "
+"adheres to the community's Code of Conduct."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:14
+msgid ""
+"Contribution can be in many forms (documentation, discussions, bug "
+"reports).  This document outlines the rules of governance for a contributor "
+"of code."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:17
+#, no-wrap
+msgid "Governance fundamentals"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:20
+msgid ""
+"In a nutshell, you need to be aware of the following fundamentals if you "
+"wish to contribute code:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:22
+msgid ""
+"All software published by the Neo4j project must have been contributed under "
+"the Neo4j Code <<cla,Contributor License Agreement>>."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:25
+msgid ""
+"Neo4j is a free software and open source community.  As a contributor, you "
+"are free to place your work under any license that has been approved by "
+"either the http://fsf.org[Free Software Foundation] or the http://opensource."
+"org[Open Source Initiative].  You still retain copyright, so in addition to "
+"that license you can of course release your work under any other license "
+"(for example a fully proprietary license), just not on the Neo4j "
+"infrastructure."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:27
+msgid ""
+"The Neo4j software is split into components.  A Git repository holds either "
+"a single or multiple components."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:28
+msgid ""
+"The source code should follow the Neo4j <<community-contributing-code-code-"
+"style,Code Style>> and ``fit in'' with the Neo4j infrastructure as much as "
+"is reasonable for the specific component."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:31
+#, no-wrap
+msgid "Contributor roles"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:35
+msgid ""
+"Every individual that contributes code does so in the context of a role (a "
+"single individual can have multiple roles).  The role defines their "
+"responsibilities and privileges:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:38
+msgid ""
+"A _patch submitter_ is a person who wishes to contribute a patch to an "
+"existing component.  See <<community-contributing-code-workflow,Workflow>> "
+"below."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:39
+msgid "A _committer_ can contribute code directly to one or more components."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:44
+msgid ""
+"A _component maintainer_ is in charge of a specific component.  They can: ** "
+"commit code in their component's repository, ** manage tickets for the "
+"repository, ** grant push rights to the repository."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:48
+msgid ""
+"A _Neo4j admin_ manages the Neo4j infrastructure.  They: ** define new "
+"components and assign component maintainership, ** drive, mentor and coach "
+"Neo4j component development."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:51
+#, no-wrap
+msgid "Contribution workflow"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:55
+msgid ""
+"Code contributions to Neo4j are normally done via Github Pull Requests, "
+"following the workflow shown below.  Please check the <<community-"
+"contributing-code-pull-requests,pull request checklist>> before sending off "
+"a pull request as well."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:57
+msgid "Fork the appropriate Github repository."
+msgstr "Fork 正确的Github repository."
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:58
+msgid "Create a new branch for your specific feature or fix."
+msgstr "为你的特殊的功能或者修复的问题创建一个新的分支."
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:59
+msgid ""
+"<<community-contributing-code-tests,Write unit tests for your code, even for "
+"small contributions>>."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:60
+msgid "<<community-contributing-code-code-style,Write code>>."
+msgstr "<<community-contributing-code-code-style,撰写代码>>."
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:61
+msgid "Write appropriate Javadocs and <<community-docs,Manual entries>>."
+msgstr ""
+"Write appropriate Javadocs and <<community-docs,Manual entries>>.书写正确的"
+"javadocs和 <<community-docs, 手册条目>>."
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:62
+msgid "<<community-contributing-code-commit-messages,Commit changes>>."
+msgstr "<<community-contributing-code-commit-messages,Commit 变更>>."
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:63
+msgid "<<community-contributing-code-pull-requests,Send pull request>>."
+msgstr "<<community-contributing-code-pull-requests,发送pull request>>."
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:66
+#, no-wrap
+msgid "Pull request checklist"
+msgstr "Pull request checklist"
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:69
+msgid "<<community-contributing-code-intro-the-fast-track,Sign the CLA>>."
+msgstr "<<community-contributing-code-intro-the-fast-track, 签署CLA>>."
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:70
+msgid ""
+"<<community-contributing-code-no-merging,Ensure that you have not added any "
+"merge commits>>."
+msgstr ""
+"<<community-contributing-code-no-merging, 确保你没有增加任何merge commits>>."
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:71
+msgid ""
+"<<community-contributing-code-single-commit,Squash all your changes into a "
+"single commit>>."
+msgstr ""
+"<<community-contributing-code-single-commit, 合并你所有的更改到一个单独的"
+"commit中>>."
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:72
+msgid ""
+"<<community-contributing-code-no-merging,Rebase against the latest master>>."
+msgstr ""
+"<<community-contributing-code-no-merging,Rebase against the latest master>>."
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:73
+msgid "<<community-contributing-code-tests,Run all relevant tests>>."
+msgstr "<<community-contributing-code-tests,运行所有相关的单元测试>>."
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:74
+msgid "Send the request!"
+msgstr "发送request!"
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:77
+#, no-wrap
+msgid "Unit Tests"
+msgstr "单元测试"
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:82
+msgid ""
+"You have a much higher chance of getting your changes accepted if you supply "
+"us with small, readable unit tests covering the code you've written.  Also, "
+"make sure your code doesn't break any existing tests.  _Note that there may "
+"be downstream components that need to be tested as well,_ depending on what "
+"you change."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:85
+msgid ""
+"To run tests, use Maven rather than your IDE to ensure others can replicate "
+"your test run.  The command for running Neo4j tests in any given component "
+"is `mvn clean validate`."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:88
+#, no-wrap
+msgid "Code Style"
+msgstr "代码风格"
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:91
+msgid ""
+"The Neo4j Code style is maintained on GitHub in https://github.com/neo4j/"
+"neo4j.github.com/tree/master/code-style[styles for the different IDEs]."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:93
+#, no-wrap
+msgid "Commit messages"
+msgstr "Commit信息"
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:97
+msgid ""
+"Please take some care in providing good commit messages.  Use your common "
+"sense. In particular:"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:100
+msgid ""
+"Use _english_. This includes proper punctuation and correct spelling.  "
+"Commit messages are supposed to convey some information at a glance -- "
+"they're not a chat room."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:104
+msgid ""
+"Remember that a commit is a _changeset_, which describes a cohesive set of "
+"changes across potentially many files.  Try to group every commit as a "
+"logical change.  Explain what it changes.  If you have to redo work, you "
+"might want to clean up your commit log before doing a pull request."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:114
+msgid ""
+"If you fix a bug or an issue that's related to a ticket, then refer to the "
+"ticket in the message.  For example, _``Added this and then changed that. "
+"This fixes #14.''_ Just mentioning #xxx in the commit will connect it to the "
+"GitHub issue with that number, see https://github.com/blog/831-issues-2-0-"
+"the-next-generation[GitHub issues].  Any of these synonyms will also work: "
+"** fixes #xxx ** fixed #xxx ** fix #xxx ** closes #xxx ** close #xxx ** "
+"closed #xxx."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:117
+msgid ""
+"Remember to convey _intent_.  Don't be too brief but don't provide too much "
+"detail, either.  That's what `git diff` is for."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:120
+#, no-wrap
+msgid "Signing the CLA"
+msgstr "签署CLA"
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:124
+msgid ""
+"One crucial aspect of contributing is the <<cla,Contributor License "
+"Agreement>>.  In short: make sure to sign the CLA, or the Neo4j project "
+"won't be able to accept your contribution."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:127
+#, no-wrap
+msgid "Don't merge, use rebase instead!"
+msgstr "不要使用merge,而用rebase代替!"
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:131
+msgid ""
+"Because we would like each contribution to be contained in a single commit, "
+"merge commits are not allowed inside a pull request.  Merges are messy, and "
+"should only be done when necessary, eg. when merging a branch into master to "
+"remember where the code came from."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:134
+msgid ""
+"If you want to update your development branch to incorporate the latest "
+"changes from master, use git rebase.  For details on how to use rebase, see "
+"Git manual on rebase: http://git-scm.com/book/en/Git-Branching-Rebasing[the "
+"Git Manual]."
+msgstr ""
+
+#. type: Title ==
+#: target/original/src/community/contributing-code.asciidoc:137
+#, no-wrap
+msgid "Single commit"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:141
+msgid ""
+"If you have multiple commits, you should squash them into a single one for "
+"the pull request, unless there is some extraordinary reason not to.  Keeping "
+"your changes in a single commit makes the commit history easier to read, it "
+"also makes it easy to revert and move features around."
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:143
+msgid ""
+"One way to do this is to, while standing on your local branch with your "
+"changes, create a new branch and then interactively rebase your commits into "
+"a single one."
+msgstr ""
+
+#. type: Block title
+#: target/original/src/community/contributing-code.asciidoc:144
+#, no-wrap
+msgid "Interactive rebasing with Git"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/contributing-code.asciidoc:149
+#, no-wrap
+msgid ""
+"# On branch mychanges\n"
+"git checkout -b mychanges-clean\n"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/contributing-code.asciidoc:152
+#, no-wrap
+msgid ""
+"# Assuming you have 4 commits, rebase the last four commits interactively:\n"
+"git rebase -i HEAD~4\n"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/src/community/contributing-code.asciidoc:156
+#, no-wrap
+msgid ""
+"# In the dialog git gives you, keep your first commit, and squash all others into it.\n"
+"# Then reword the commit description to accurately depict what your commit does.\n"
+"# If applicable, include any issue numbers like so: #760\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:159
+msgid ""
+"For more details, see the git manual: http://git-scm.com/book/en/Git-Tools-"
+"Rewriting-History#Changing-Multiple-Commit-Messages"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/community/contributing-code.asciidoc:161
+msgid ""
+"If you are asked to modify parts of your code, work in your original branch "
+"(the one with multiple commits), and follow the above process to create a "
+"fixed single commit."
+msgstr ""
+
+#. type: Title =
+#: target/original/src/community/contributors.asciidoc:3
+#, no-wrap
+msgid "Contributors"
+msgstr "Contributors"
+
+#. type: Plain text
+#: target/original/src/community/contributors.asciidoc:6
+msgid ""
+"As an Open Source Project, the Neo4j User community extends its warmest "
+"thanks to all the contributors who have signed the <<cla>> to date and are "
+"contributing to this collective effort."
+msgstr ""
+
+#. type: delimited block |
+#: target/original/src/community/contributors.asciidoc:80
+#, no-wrap
+msgid ""
+"|name | GIThub ID\n"
+"|Johan Svensson | https://github.com/johan-neo[johan-neo]\n"
+"|Emil Eifrem | https://github.com/emileifrem[emileifrem]\n"
+"|Peter Neubauer | https://github.com/peterneubauer[peterneubauer]\n"
+"|Mattias Persson | https://github.com/tinwelint[tinwelint]\n"
+"|Tobias Lindaaker | https://github.com/thobe[thobe]\n"
+"|Anders Nawroth | https://github.com/nawroth[nawroth]\n"
+"|Andrés Taylor |https://github.com/systay[systay]\n"
+"|Jacob Hansson |https://github.com/jakewins[jakewins]\n"
+"|Jim Webber |https://github.com/jimwebber[jimwebber]\n"
+"|Josh Adell |https://github.com/jadell[jadell]\n"
+"|Andreas Kollegger |https://github.com/akollegger[akollegger]\n"
+"|Chris Gioran |https://github.com/digitalstain[digitalstain]\n"
+"|Thomas Baum |https://github.com/tbaum[tbaum]\n"
+"|Alistair Jones |https://github.com/apcj[apcj]\n"
+"|Michael Hunger |https://github.com/jexp[jexp]\n"
+"|Jesper Nilsson |https://github.com/jespernilsson[jespernilsson]\n"
+"|Tom Sulston |https://github.com/tomsulston[tomsulston]\n"
+"|David Montag |https://github.com/dmontag[dmontag]\n"
+"|Marlon Richert |https://github.com/marlonrichert[marlonrichert]\n"
+"|Hugo Josefson |https://github.com/hugojosefson[hugojosefson]\n"
+"|Vivek Prahlad |https://github.com/vivekprahlad[vivekprahlad]\n"
+"|Adriano Almeida |https://github.com/adrianoalmeida7[adrianoalmeida7]\n"
+"|Benjamin Gehrels |https://github.com/BGehrels[BGehrels]\n"
+"|Christopher Schmidt |https://github.com/FaKod[FaKod]\n"
+"|Pascal Rehfeldt |https://github.com/prehfeldt[prehfeldt]\n"
+"|Björn Söderqvist |https://github.com/cybear[cybear]\n"
+"|Abdul Azeez Shaik |https://github.com/abdulazeezsk[abdulazeezsk]\n"
+"|James Thornton |https://github.com/espeed[espeed]\n"
+"|Radhakrishna Kalyan |https://github.com/nrkkalyan[nrkkalyan]\n"
+"|Michel van den Berg |https://github.com/promontis[promontis]\n"
+"|Brandon McCauslin |https://github.com/bm3780[bm3780]\n"
+"|Hendy Irawan |https://github.com/ceefour[ceefour]\n"
+"|Luanne Misquitta |https://github.com/luanne[luanne]\n"
+"|Jim Radford |https://github.com/radford[radford]\n"
+"|Axel Morgner |https://github.com/amorgner[amorgner]\n"
+"|Taylor Buley |https://github.com/editor[editor]\n"
+"|Alex Smirnov |https://github.com/alexsmirnov[alexsmirnov]\n"
+"|Johannes Mockenhaupt |https://github.com/jotomo[jotomo]\n"
+"|Pablo Pareja Tobes |https://github.com/pablopareja[pablopareja]\n"
+"|Björn Granvik |https://github.com/bjorngranvik[bjorngranvik]\n"
+"|Julian Simpson|https://github.com/simpsonjulian[simpsonjulian]\n"
+"|Pablo Pareja Tobes |https://github.com/pablopareja[pablopareja]\n"
+"|Rickard Öberg |https://github.com/rickardoberg[rickardoberg]\n"
+"|Stefan Armbruster |https://github.com/sarmbruster[sarmbruster]\n"
+"|Stephan Hagemann |https://github.com/shageman[shageman]\n"
+"|Linan Wang |https://github.com/wangii[wangii]\n"
+"|Ian Robinson|https://github.com/iansrobinson[iansrobinson]\n"
+"|Marko Rodriguez |https://github.com/okram[okram]\n"
+"|Saikat Kanjilal |https://github.com/skanjila[skanjila]\n"
+"|Craig Taverner |https://github.com/craigtaverner[craigtaverner]\n"
+"|David Winslow |https://github.com/dwins[dwins]\n"
+"|Patrick Fitzgerald |https://github.com/paddydub[paddydub]\n"
+"|Stefan Berder |https://github.com/hrbonz[hrbonz]\n"
+"|Michael Kanner |https://github.com/SepiaGroup[SepiaGroup]\n"
+"|Lin Zhemin |https://github.com/miaoski[miaoski]\n"
+"|Christophe Willemsen |https://github.com/kwattro[kwattro]\n"
+"|Tony Liu |https://github.com/kooyeed[kooyeed]\n"
+"|Michael Klishin |https://github.com/michaelklishin[michaelklishin]\n"
+"|Wes Freeman |https://github.com/wfreeman[wfreeman]\n"
+"|Chris Leishman |https://github.com/chrisleishman[chrisleishman] \n"
+"|Brian Levine |https://github.com/blevine[blevine]\n"
+"|Ben Day |https://github.com/benday280412[benday280412]\n"
+"|Davide Savazzi |https://github.com/svzdvd[svzdvd]\n"
+"|Nigel Small |https://github.com/nigelsmall[nigelsmall]\n"
+"|Lasse Westh-Nielsen |https://github.com/lassewesth[lassewesth]\n"
+"|Wujek Srujek |https://github.com/wujek-srujek[wujek-srujek]\n"
+"|Alexander Yastrebov |https://github.com/AlexanderYastrebov[AlexanderYastrebov]\n"
+"|Mike Bryant|https://github.com/mikesname[mikesname]\n"
+"|Klaus Grossmann|https://github.com/iKlaus[iKlaus]\n"
+"|Pablo Lalloni|https://github.com/plalloni[plalloni]\n"
+msgstr ""
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "include::cla.asciidoc[]"
+#~ msgstr "include::cla.asciidoc[]"
+
+#~ msgid "include::contribution-areas.asciidoc[]"
+#~ msgstr "include::contribution-areas.asciidoc[]"
+
+#~ msgid "include::docs.asciidoc[]"
+#~ msgstr "include::docs.asciidoc[]"
+
+#~ msgid "include::translating.asciidoc[]"
+#~ msgstr "include::translating.asciidoc[]"
+
+#~ msgid "include::contributing-code.asciidoc[]"
+#~ msgstr "include::contributing-code.asciidoc[]"
+
+#~ msgid "include::contributors.asciidoc[]"
+#~ msgstr "include::contributors.asciidoc[]"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "[source,shell]"
+#~ msgstr "[source,shell]"
