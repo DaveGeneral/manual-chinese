@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: neo 4j\n"
-"POT-Creation-Date: 2013-03-05 09:30+0800\n"
-"PO-Revision-Date: 2013-03-05 09:29+0800\n"
+"POT-Creation-Date: 2013-03-07 10:28+0800\n"
+"PO-Revision-Date: 2013-03-05 10:58+0800\n"
 "Last-Translator: tony < liuning@dotlife.cn>\n"
 "Language-Team: none\n"
 "Language: zh-CN\n"
@@ -636,7 +636,7 @@ msgstr ""
 #: target/original/src/community/docs.asciidoc:146
 #, no-wrap
 msgid "http://neo4j.org/\n"
-msgstr ""
+msgstr "http://neo4j.org/\n"
 
 #. type: Plain text
 #: target/original/src/community/docs.asciidoc:149
@@ -1325,6 +1325,9 @@ msgid ""
 " return n\n"
 " ----\n"
 msgstr ""
+" start n = node(*)\n"
+" return n\n"
+" ----\n"
 
 #. type: Plain text
 #: target/original/src/community/docs.asciidoc:491
@@ -1345,6 +1348,9 @@ msgid ""
 "(B) {\"name\" : \"Trinity\"};\n"
 "(A)-[:LOVES]->(B)\n"
 msgstr ""
+"(A) {\"name\" : \"Neo\"};\n"
+"(B) {\"name\" : \"Trinity\"};\n"
+"(A)-[:LOVES]->(B)\n"
 
 #. type: delimited block -
 #: target/original/src/community/docs.asciidoc:501
@@ -1353,6 +1359,8 @@ msgid ""
 "start n = node(*)\n"
 "return n\n"
 msgstr ""
+"start n = node(*)\n"
+"return n\n"
 
 #. type: Title ==
 #: target/original/src/community/docs.asciidoc:505
@@ -1401,7 +1409,7 @@ msgstr ""
 #. type: delimited block =
 #: target/original/src/community/translating.asciidoc:10
 msgid "The project contains:"
-msgstr ""
+msgstr "工程包括:"
 
 #. type: delimited block =
 #: target/original/src/community/translating.asciidoc:12
@@ -1431,7 +1439,7 @@ msgstr ""
 #. type: delimited block =
 #: target/original/src/community/translating.asciidoc:17
 msgid "'pom.xml' -- Maven build configuration."
-msgstr ""
+msgstr "'pom.xml' -- Maven 生成配置."
 
 #. type: Title ==
 #: target/original/src/community/translating.asciidoc:18
@@ -1470,7 +1478,7 @@ msgstr ""
 #: target/original/src/community/translating.asciidoc:31
 #, no-wrap
 msgid "perl -MUnicode::GCString -e ''\n"
-msgstr ""
+msgstr "perl -MUnicode::GCString -e ''\n"
 
 #. type: Plain text
 #: target/original/src/community/translating.asciidoc:34
@@ -2286,6 +2294,19 @@ msgstr ""
 
 #~ msgid "3"
 #~ msgstr "3"
+
+#~ msgid ""
+#~ "include::{importdir}/neo4j-examples-docs-jar/dev/examples/hello-world-"
+#~ "sample-chapter.asciidoc[]"
+#~ msgstr ""
+#~ "include::{importdir}/neo4j-examples-docs-jar/dev/examples/hello-world-"
+#~ "sample-chapter.asciidoc[]"
+
+#~ msgid "[console]"
+#~ msgstr "[console]"
+
+#~ msgid "[source,bash]"
+#~ msgstr "[source,bash]"
 
 #~ msgid "[source,shell]"
 #~ msgstr "[source,shell]"
